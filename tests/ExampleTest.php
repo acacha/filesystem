@@ -1,6 +1,11 @@
 <?php
 
-namespace League\Skeleton;
+namespace Acacha\Filesystem;
+
+/**
+ * Class ExampleTest
+ * @package League\Skeleton
+ */
 
 class ExampleTest extends \PHPUnit_Framework_TestCase
 {
