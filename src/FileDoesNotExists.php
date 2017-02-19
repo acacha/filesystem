@@ -1,6 +1,6 @@
 <?php
 
-namespace Acacha\Filesystem\Filesystem;
+namespace Acacha\Filesystem;
 
 /**
  * Class FileDoesNotExists.
