@@ -119,6 +119,7 @@ class Filesystem
      */
     protected function getPath($file)
     {
+        if(strtoupper(substr(PHP_OS, 0,3)) == "WIN") return $file;
         return $this->root . '/' . $file;
     }
 
